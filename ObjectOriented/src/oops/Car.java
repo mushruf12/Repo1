@@ -1,11 +1,16 @@
 package oops;
 
-public class Car extends Vehicle {
+public class Car extends Auto {
+// car is child class Auto is parent
 
-	@Override
-	int fare() {
+
+	int addwheels() {
 		// TODO Auto-generated method stub
-		return 3;
+		return 4;
+	}
+	int addseats() {
+		// TODO Auto-generated method stub
+		return 1;
 	}
 
 }
