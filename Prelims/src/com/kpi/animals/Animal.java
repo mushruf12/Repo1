@@ -1,5 +1,5 @@
 package com.kpi.animals;
 
-public class Animal {
+public class Animal extends object{
 
 }

@@ -1,6 +1,6 @@
 package com.kpi.animals;
 
-public class Omnivoures extends Animal{
+public class Omnivoures extends Object{
 	//I am Omnivoures
 
 }
