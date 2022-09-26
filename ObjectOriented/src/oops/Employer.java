@@ -10,7 +10,7 @@ public class Employer {
 	protected void setEmpID(int empID) {
 		this.empID=empID;
 	}
-	private String getName() {
+	String getName() {
 		return name;
 	}
 	private void setName(String name) {
