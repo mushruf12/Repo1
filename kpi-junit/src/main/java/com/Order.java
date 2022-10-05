@@ -1,12 +1,21 @@
 package com;
 
 	public class Order {
-		int no;
-		String name;
-		public Order(int n,String s){
-			this.no = n;
-			this.name = s;
-			
+		int orderid;
+		String securitycode;
+		String orderstatus;
+		String date;
+		void setOrderId(int id) {
+			orderid=id;
+		}
+		void setSecurityCode(String code) {
+			securitycode=code;
+		}
+		void setOrderStatus(String status) {
+			orderstatus=status;
+		}
+		void setOrderDate(String d) {
+			date=d;
 		}
 		
 }

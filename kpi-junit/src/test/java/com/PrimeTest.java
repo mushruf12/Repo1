@@ -2,8 +2,6 @@ package com;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-import com.Prime;
-
 public class PrimeTest {
 	@Test
 	public void prime() {
