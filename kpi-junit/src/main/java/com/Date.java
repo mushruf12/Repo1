@@ -30,6 +30,14 @@ public class Date {
 		int year = current.getYear();
 		System.out.println("Month : "+month+" day: "+day+" Seconds : "+seconds+" hour :"+hour+"year :"+year);
 		
+		LocalDate date2 = LocalDate.of(1950,1,26);
+		System.out.println("The republic day:  "+ date2);
+		
+		LocalDateTime specificDate = current.withDayOfMonth(24).withYear(2016);
+		System.out.println("specific date with"+"Current time is "+ specificDate);
+	}
+	public static void main(String[] args ) {
+		LocalDateTimeApi();
 		
 	}
 
